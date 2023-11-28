@@ -1,0 +1,79 @@
+
+.react-main{
+    width: 80%;
+    padding: 2% 10%;
+    margin: 2% 10%;
+    background-color: white;
+    box-shadow: 1px 1px 5px 1px gray;
+
+}
+.react-main center{
+    font-size: 1.5em;
+    font-weight: bold;
+    border-color: 2px solid black;
+}
+.reach-sub-main{
+    display: flex;
+    padding: 2%;
+}
+.reach-sub1{
+width: 85%;
+justify-content: space-around;
+}
+.reach-sub1 li{
+    display: flex;
+    font-size: 1rem;
+    align-items: center;
+}
+
+.reach-sub2{
+    width: 90%;
+    margin: 2%;
+}
+.reach-sub2 input,textarea{
+    width: 100%;
+  border:none;
+  padding: 2.8%;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  outline: none;
+  font-size: 100%;
+  background:  #F0F5FF;
+  box-shadow: 0.2px 0.2px 2px gray;
+
+}
+.reach-sub2>input:hover{
+    box-shadow: 1px 1px 6px gray;
+}
+.reach-sub2>textarea:hover{
+    box-shadow: 1px 1px 6px gray;
+}
+.reach-sub2 button{
+    padding: 2.8% 6%;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    outline: none;
+    background-color: #0055DA;
+    color: white;
+}
+.reach-sub2 button:hover{
+    background-color: #0041a8;
+}
+.messaeg-text{
+    padding: 10%;
+}
+@media screen and (max-width:680px) {
+    .reach-sub-main{
+        display: block;
+        font-size: 0.6em;
+        padding: 2%;
+    }
+   
+}

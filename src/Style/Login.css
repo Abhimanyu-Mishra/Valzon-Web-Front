@@ -1,0 +1,65 @@
+.log-in-form{
+  background-color: white;
+  text-align: center;
+  width: 30%;
+  box-shadow: 1px 1px 5px #808080;
+  padding : 1%;
+  margin:2% 34%;
+}
+
+.heading-text{
+  display: flex;
+  justify-content: space-between;
+  padding: 1%;
+  font-size: 1.2rem;
+  font-weight: bold;
+  align-items: center;
+  margin: 1%;
+}
+.log{
+  font-size: 0.6em;
+}
+.full-size-input{
+  width: 90%;
+  outline: none;
+  border-radius: 18px;
+  padding: 2.5%;
+  margin: 2%;
+  border: 1px solid gray;
+  background-color: aliceblue;
+}
+.flex-using{
+  display: flex;
+  justify-content: space-around;
+}
+#loginbutton{
+  background-color: red;
+  color: white;
+  padding: 2.5% 4%;
+  font-weight: bold;
+  font-size: 1.3em;
+  border-radius: 20px;
+  width: 90%;
+  text-align: center;
+  border: none;
+}
+.dont-have-ac{
+  color: red;
+  cursor: pointer;
+}
+link{
+  text-decoration: none !important;
+}
+@media screen and (max-width:680px) {
+  
+  .log-in-form{
+    font-size: 0.4em;
+    width: 40%;
+    margin:2% 30%;
+
+  }
+  .flex-using>span{
+    display: flex;
+    align-items: center;
+  }
+}

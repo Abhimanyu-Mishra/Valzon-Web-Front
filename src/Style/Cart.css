@@ -1,0 +1,187 @@
+.back-to-shop{
+    display: flex;
+   align-items: center;
+   padding: 1% 2%;
+   font-size: 1.3em;
+}
+.heading-shop{
+    padding: 1% 2%;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.heading-shop-p{
+    padding: 1%;
+    font-size: 1.4rem;
+}
+
+.cart-main{
+    /* background-color: aliceblue; */
+    width: 95%;
+    margin: 2%;
+}
+.item-main{
+    display: block;
+    align-items: center;
+    width: 90%;
+    margin: 5%;
+    border-radius: 10px;
+}
+.cart-data-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    box-shadow: 1px 1px 10px gray;
+    margin:1%;
+    border-radius: 10px;
+    padding: 1%;
+    width: 100%;
+}
+.item-img{
+    width: 12%;
+}
+.item-img img{
+    width: 120%;
+}
+.center-text{
+  text-align: center;
+}
+.bv-dp-main{
+    display: flex;
+    flex-direction: column;
+}
+.Product{
+    display: flex;
+    align-items: center;
+ width: 10%;
+}
+#quantity{
+    width: 20%;
+}
+.remove{
+    background-color: rgb(235, 63, 63);
+    color: white ;
+    border: none;
+    border-radius: 5px;
+    padding: 1% 2%;
+    cursor: pointer;
+}
+.remove:hover{
+    background-color: rgb(255, 1, 1);
+}
+.place-order{
+    background-color: hsl(20, 97%, 55%);
+    border: none;
+    padding: 3% 7%;
+    color: white;
+    margin: 2%;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.place-order:hover{
+    background-color: hsl(20, 96%, 48%); 
+}
+.delivery-pay {
+    padding: 3%;
+    display: flex;
+    justify-content: space-around;
+}
+.payment-side-section {
+    margin-bottom: 4%;
+}
+.delivery-icon {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    width: 50%;
+}
+
+.delivery-icon img {
+    width: 10%;
+}
+
+.delivery-adress {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    width: 25%;
+    border-radius: 3px;
+    border: 1px solid gray;
+}
+
+.delivery-adress input,
+button {
+    border: none;
+    outline: none;
+    padding: 1%;
+    margin: auto;
+}
+.delivery-adress button{
+    background-color: blue;
+    color: white;
+    border-radius: 2px;
+}
+
+.payment-section {
+    width: 60%;
+    height: 40px;
+    margin-bottom: 10%;
+}
+
+.upi-pay {
+    width: 70%;
+}
+
+.payment-section div {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.select-payment-box {
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.pay {
+    width: 50%;
+}
+
+.pay span {
+    font-size: 1em;
+}
+
+.place-order {
+    background-color: #FB641B;
+    border: none;
+    padding: 3% 7%;
+    color: white;
+    margin: 2%;
+    cursor: pointer;
+}
+
+@media screen and (max-width:600px) {
+    .delivery-adress {
+        width: 30%;
+    }
+
+    .delivery-adress input,
+    button {
+        font-size: 0.5em;
+    }
+
+    .select-payment-box {
+        font-size: 0.5em;
+    }
+
+    .payment-section {
+        margin-bottom: 4%;
+
+    }
+    .pay {
+        width: 50%;
+        margin-top: 8%;
+    }
+    .delivery-pay {
+        display: block;
+    }
+}

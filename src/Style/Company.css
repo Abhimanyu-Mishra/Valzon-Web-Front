@@ -1,0 +1,148 @@
+.fi-conte-aboutt{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    width: 100%;
+}
+.fi-img{
+    width: 50%;
+
+}
+.fi-img img{
+    width: 100%;
+}
+
+.fi-cont-sub2{
+    width: 46%;
+
+}
+.head-tag{
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+}
+.customer3-pic-head{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.cs{
+    width: 30%;
+}
+.cs img{
+    margin: 1%;
+    border-radius: 13px;
+    width: 100%;
+    height: 200px;
+}
+.cart3-main{
+    display: flex;
+    justify-content: space-around;
+}
+.cart3-sub1{
+    width: 27%;
+    padding: 1%;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.cart3-sub1-text{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+
+}
+ .cart3-img-company{
+    width: 100%;
+    opacity: 1;
+    z-index: 0;
+ }
+.after-safe-hand-main{
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    
+}
+.img-head{
+    width: 46%;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 9%;
+}
+.img-sub1{
+    width: 40%;
+    border-radius: 10px;
+   
+}
+.img-sub1 img{
+    width: 100%;
+    border-radius: 10px;
+    height: 250px;
+    
+}
+.img-sub2 img{
+    width: 100%;
+    border-radius: 10px;
+    height: 350px;
+}
+.img-sub2{
+    width: 45%;
+  
+    
+}
+
+.after-safe-sub2-text{
+    width: 46%;
+}
+
+.mission3cart-main{
+    display: flex;
+    justify-content: space-around;
+}
+.mission-heading{
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+}
+.mission-sub{
+    width: 30%;
+    padding: 2%;
+    background-color: rgb(179, 241, 220);
+}
+.director-main{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2% 8%;
+}
+.team-sub{
+    width: 46%;
+    padding: 2%;
+   
+}
+.flow-scroll{
+    scroll-behavior: smooth;
+    overflow: scroll;
+    background-color: rgb(179, 241, 220);
+    height: 280px;
+    padding: 2%;
+    font-size: 1.1em;
+}
+.team-img{
+    width: 96%;
+    margin-bottom: 2%;
+    padding: 1%;
+    color: white;
+    background-color: rgb(20, 144, 103);
+}
+.team-img img{
+    align-items: center;
+    padding: 0 20%;
+    width: 60%;
+    height: 200px;
+    border-radius: 50%;
+}
+.namee{
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}

@@ -1,0 +1,167 @@
+/* 
+.footer-main{
+    background-color: #0E2C50;
+    width: 100%;
+    padding: 2% 1%;
+    font-family: Calibri;
+    font-family: "sans serif like Thesans";
+    font-family:   "Helvetica";
+    font-family: MD Primer Bold,Rubik,Lato,Lucida Grande,Lucida Sans Unicode,Tahoma,Sans-Serif;
+}
+Link{
+  text-decoration: none;
+}
+
+
+
+.li-blok-using-media-qu{
+  display: block;
+  justify-content: space-around;
+}
+li:hover{
+    transform: 0.6s;
+    color: rgb(255, 89, 0);
+    cursor: pointer;
+}
+.mui-size{
+  font-size: 1.1em;
+}
+
+.copyright{
+    color: white;
+}
+.ggmail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+ul {
+  list-style:none;
+}
+.social{
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.4em;
+  cursor: pointer;
+}
+.social>span:hover{
+  font-size: 1.3em;
+  cursor: pointer;
+  color: rgb(255, 234, 0);
+}
+.mapping{
+  width: 90%;
+  padding-left: 2%;
+  
+}
+.mapping iframe{
+  width: 100%;
+  height: 80%;
+}
+ @media screen and (max-width: 580px)  { 
+  .li-blok-using-media-qu{
+    display: block;
+  }
+   /* .first-li{
+        display: block;
+    }  */
+  /* .li-blok-using-media-qu{
+    display: flex;
+    justify-content: space-around;
+    padding: 0% 2%;
+  } */
+  /* .li-blok-using-media-qu2{
+    padding: 0% 2%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .mapp{
+    align-items: center;
+    margin:  0% 10%;
+   
+  }
+  .logo{
+    width: 100%;
+    margin:  0% 10%;
+  } */
+
+.f-strong-main{
+  background-color: #0055DA;
+  border-radius:  0 0 10px 10px;
+}
+  .footer-main{
+    width: 100%;
+    padding: 2% 2px;
+    /* font-family: "sans serif like Thesans"; */
+    font-family: Dosis;
+    font-family:   "Helvetica";
+    font-family: MD Primer Bold,Rubik,Lato,Lucida Grande,Lucida Sans Unicode,Tahoma,Sans-Serif;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+
+.first-li{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+li{
+  font-size: 0.8rem;
+  margin-top: 0.5%;
+}
+.li-blok-using-media-qu{
+  display: flex;
+  justify-content: space-around;
+}
+li:hover{
+    transform: 0.6s;
+    color: rgb(255, 89, 0);
+    cursor: pointer;
+}
+.for-address{
+  padding-left: 2%;
+  }
+.copyright{
+    color: white;
+}
+.ggmail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+ul {
+  list-style:none;
+}
+.social{
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.4em;
+  cursor: pointer;
+}
+.social>span:hover{
+  font-size: 1.3em;
+  cursor: pointer;
+  color: rgb(255, 234, 0);
+}
+.font-Desktop{
+  font-size: 0.8rem;
+  margin-top: 0.5%;
+}
+.mapping{
+  width: 90%;
+  padding-left: 2%;
+  
+}
+.mapping iframe{
+  width: 100%;
+  height: 80%;
+}
+
+ @media screen and (max-width: 580px)  { 
+  .li-blok-using-media-qu{
+    display: block;
+  }
+
+}
