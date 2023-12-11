@@ -43,6 +43,13 @@
 .item-img img{
     width: 120%;
 }
+.product-details{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: space-between;
+}
+
 .center-text{
   text-align: center;
 }
@@ -160,6 +167,20 @@ button {
 }
 
 @media screen and (max-width:600px) {
+    .product-details{
+        display: block;
+        flex-direction: column;
+        width:35%;
+    }
+    .item-img{
+        width: 30%;
+    }
+    .product-name{
+        font-weight: bold;
+    }
+    .remove{
+        width: 25%;
+    }
     .delivery-adress {
         width: 30%;
     }
@@ -172,7 +193,7 @@ button {
     .select-payment-box {
         font-size: 0.5em;
     }
-
+ 
     .payment-section {
         margin-bottom: 4%;
 

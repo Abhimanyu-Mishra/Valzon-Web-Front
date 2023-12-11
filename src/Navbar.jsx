@@ -80,10 +80,9 @@ const Navbar = () => {
         <div className='left-nav-img' onClick={logoClick}> <img className='imgg' src={Vlogo} width={"100%"} />
         </div>
         </div> 
-        <div className='out-inp'>
           <div className='search-box-top'>
             <SearchIcon className='mui-size-increase' onClick={searchClick} />
-            <input type='text' placeholder="Search For Products" /> 
+            <input type='text' placeholder="Search" /> 
           </div>
           <div className='right-icon-user'>
             <span className='icon-user'>
@@ -108,7 +107,6 @@ const Navbar = () => {
               </span>
               <span  onClick={cartClickk} className='icon-user'> <ShoppingCartIcon className='mui-size-increase' />  Cart</span>
           </div>
-        </div>
 
       </div>
     

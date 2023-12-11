@@ -97,7 +97,6 @@ ul {
     font-family:   "Helvetica";
     font-family: MD Primer Bold,Rubik,Lato,Lucida Grande,Lucida Sans Unicode,Tahoma,Sans-Serif;
     display: flex;
-    flex-direction: column;
     color: white;
 }
 
@@ -140,6 +139,9 @@ ul {
   font-size: 1.4em;
   cursor: pointer;
 }
+.social a{
+ color: white;
+}
 .social>span:hover{
   font-size: 1.3em;
   cursor: pointer;
@@ -160,8 +162,12 @@ ul {
 }
 
  @media screen and (max-width: 580px)  { 
-  .li-blok-using-media-qu{
+  /* .li-blok-using-media-qu{
     display: block;
-  }
-
+  } */
+.footer-main{
+  display: block;
+  flex-direction: column;
+}
+  
 }

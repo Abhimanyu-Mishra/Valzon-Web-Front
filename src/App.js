@@ -6,10 +6,10 @@ import AttachEmailIcon from '@mui/icons-material/AttachEmail';
 
 import Footer from './Footer/Footer';
 import Popup from './Component/Popup';
+import ScrollExample from './Component/ScrollExample';
 const App = () => {
   return (
     <div>
-   
       <Navbar/>
       <Routee/>
       <Popup/>

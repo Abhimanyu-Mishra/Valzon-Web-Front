@@ -12,6 +12,7 @@ body{
 .four-cont-describe>div{
   width: 22%;
   background-color:white;
+  text-align: center;
   padding: 1.5%;
 }
 .four-cont-describe>div:hover{
@@ -26,7 +27,7 @@ body{
   font-size: 1.3em;
 }
 .popular-heading{
-  font-size: 2.3rem;
+  font-size: 2rem;
   padding: 4px;
   margin-left: 6px;
   border-bottom: 4px solid black;
@@ -208,6 +209,9 @@ body{
     height: 300px;
   }
 
+  .right-scroll-btn{
+    top: -60px;
+  }
   .media-main{
     display:block;
     overflow: scroll;   

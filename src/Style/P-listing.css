@@ -120,5 +120,13 @@
   .main-div{
     display: block;
   }
-
+  .p-img-main{
+    width: 90%;
+  }
+  .text-main-offer{
+    width: 95%;
+    padding: 2%;
+    margin: 1% 2%;
+  }
+  
 }

@@ -54,25 +54,30 @@ const decreaseQuantity=()=>{
         <p className='heading-shop-p'> You Have {cartData.length} items in the cart</p>
 
           <div className='item-main'>
+         
           {
+          
             cartData.map((i)=>{
               return (
+                <>
                 <div className='cart-data-main'>
-
+              
             <div className='item-img'>
               <img src={i.proimg} />
             </div>
-               
-             <div>{i.productname}</div>
+            
+
+            <div className='product-details'>
+             <div className='product-name'>{i.productname}</div>
             <div className='Product'>
               <AddIcon onClick={increaseQuantity} />
               <RemoveIcon onClick={decreaseQuantity} />
             </div>
-            <div className='quantity'>Quantity  
-               <div  className='center-text'>{itemQuantity} </div>
+            <div className='quantity'>Quantity : 
+               <span  className='center-text'>{itemQuantity} </span>
             </div>
-            <div className='price'>MRP
-               <div className='center-text'>{(i.mrp)*itemQuantity}</div>
+            <div className='price'>MRP:
+               <span className='center-text'>{(i.mrp)*itemQuantity} /-</span>
               
             </div>
 
@@ -85,6 +90,8 @@ const decreaseQuantity=()=>{
               <DeleteForeverIcon/>
             </div>
             </div>
+            </div>
+            </>
             )
           })
         }

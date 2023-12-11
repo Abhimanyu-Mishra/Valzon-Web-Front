@@ -1,0 +1,41 @@
+.deal-main{
+   background-color: #61C2AE;
+   padding: 1% 5%;
+   color: white;
+   text-align: center;
+   justify-content: center;
+   display: flex;
+}
+.deal-heading{
+    font-size: 3rem;
+
+}
+.time-Zone{
+    color: #045377;
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+.color-blue-offer{
+    color: #045377;
+}
+ 
+.deal-img{
+  width: 40%;
+}
+.deal-img img{
+    width: 40%;
+    margin-bottom: -2.5%;
+}
+@media screen and (max-width:700px) {
+    .deal-img img{
+        width: 80%;
+        padding-top: 5%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .deal-img img{
+        width: 90%;
+        padding-top: 5%;
+    }
+}

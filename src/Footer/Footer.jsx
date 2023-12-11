@@ -69,8 +69,6 @@ const Footer = () => {
                     
                     </div>
 
-                    <br></br>
-
 
 
                         <div className='first-li'>
@@ -84,9 +82,9 @@ const Footer = () => {
 
                                 <div className='social'>
 
-                                    <span><FacebookIcon />  </span>
+                                    <Link to="https://www.facebook.com/ValzonIndia" target='_blank'><span><FacebookIcon />  </span></Link>
 
-                                    <span><InstagramIcon />  </span>
+                                    <Link to="https://www.instagram.com/valzon_india/" target='_blank'> <span><InstagramIcon />  </span></Link>
                                     <Link to="https://www.linkedin.com/company/valzon-india-pvt-ltd/" target='_blank' style={{ textDecoration: "none" }}><span><LinkedInIcon />  </span></Link>
 
                                 </div>

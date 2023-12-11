@@ -62,4 +62,10 @@ link{
     display: flex;
     align-items: center;
   }
+  .full-size-input{
+    border-radius: 5px;
+  }
+  #loginbutton{
+    border-radius: 5px;
+  }
 }

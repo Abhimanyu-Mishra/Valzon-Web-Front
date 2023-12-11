@@ -76,31 +76,46 @@ const submitdata=(e)=>{
   
        <div className='formm'>
        <span className='become-customer'>Become a customer</span><br/><br/>
-          <form action='#' onSubmit={handleFormSubmit}>
+          <form action='#' onSubmit={handleFormSubmit} className='Form-input-main'>
           <h2> Create Account  </h2>
 
-            <label htmlFor='name'>Name*</label>
+            <div className='input-level'>
+            <label  className="label-class" htmlFor='name'>Name*</label>
             <input required className='inp-log-form' type='text' id='name' name='name' placeholder='Enter your Name' onChange={changed} autoComplete='offf' /> <br></br><br></br>
-              
-            <label htmlFor='email'>Email</label>
-            <input className='inp-log-form' type='email' id='email' name='email'  placeholder='Enter your Email' onChange={changed} /> <br></br><br></br>
-
-            <label htmlFor='phone'>Phone*</label>
-            <input className='inp-log-form' type='number' id='phone' name='phone' placeholder='Enter your Phone Numbar' onChange={changed} /> <br></br><br></br>
-
-            <div className='textarea-main'>
-            <label htmlFor='address'>Address</label>
-            <textarea  type='text' id='address' name='address' placeholder='Enter your Address' onChange={changed} ></textarea> <br></br><br></br>
             </div>
 
-            <label htmlFor='password' >Password*</label>
-            <input className='inp-log-form' type='password' id='password' name='password'  placeholder='Enter password ' onChange={changed} /> <br></br><br></br>
+            <div className='input-level'>
+            <label className="label-class" htmlFor='email'>Email</label>
+            <input className='inp-log-form' type='email' id='email' name='email'  placeholder='Enter your Email' onChange={changed} /> <br></br><br></br>
+            </div>
 
+            <div className='input-level'>
+            <label className="label-class" htmlFor='phone'>Phone*</label><br/>
+            <input className='inp-log-form' type='number' id='phone' name='phone' placeholder='Enter your Phone Numbar' onChange={changed} /> <br></br><br></br>
+            </div>
+
+            <div className='input-level'>
+            <div className='textarea-main'>
+            <label className="label-class" htmlFor='address'>Address</label><br/>
+            <textarea  type='text' id='address' name='address' placeholder='Enter your Address' onChange={changed} ></textarea> <br></br><br></br>
+            </div>
+            </div>
+
+            <div className='input-level'>
+            <label className="label-class" htmlFor='password' >Password*</label>
+            <input className='inp-log-form' type='password' id='password' name='password'  placeholder='Enter password ' onChange={changed} /> <br></br><br></br>
+            </div>
+
+            <div className='input-level'>
+            <div className='check-box-div'>
             <input type="checkbox" id="Remember"   />
-            <label for="Remember"> Remember</label>    
-            <span for="forgot" className='become-customer'>Forgot Password ? </span> <br/>   
-              <button className='btn' type='submit'>Sign Up</button> 
-            <button className='btn' type='reset'  >Reset</button>
+            <label className="label-class" for="Remember"> Remember</label>    
+            <span for="forgot" className='become-customer'>Forgot Password ? </span>
+            </div>
+             <br/>   
+            <button className='btn-sign' type='submit'>Sign Up</button> 
+            <button className='btn-sign' type='reset'  >Reset</button>
+            </div>
             <br></br>
             <a href="https://accounts.google.com/AddSession/identifier?service=accountsettings&continue=https%3A%2F%2Fmyaccount.google.com%2F&ec=GAlAwAE&hl=en&authuser=0&flowName=GlifWebSignIn&flowEntry=AddSession" target="_blank"><img style={{width:"25px"}} src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2000px-Google_%22G%22_Logo.svg.png" /><span>Google Account</span></a><br/>
             <br/>

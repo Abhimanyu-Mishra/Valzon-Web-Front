@@ -19,6 +19,7 @@ import '../Style/Kitchen.css';
 import images from "../NavComponent/Details"
 import { Link } from 'react-router-dom';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+import DealTimer from '../Component/DealTimer';
 const Home = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -108,11 +109,14 @@ const Home = () => {
         <div className='four-cont-describe-data'>{dat.ico}</div>
        <span>
        <div className='four-cont-describe-data'>{dat.head}</div>
-       <p className='four-cont-describe-sub-data'>{dat.subhead}</p>
+       <p  className='four-cont-describe-sub-data'>{dat.subhead}</p>
        </span>
       </div>
       )})}
     </div>
+
+    <DealTimer/>
+    
       <span className='popular-heading' style={{ paddingLeft: "1%" }} >Our Popular Products</span>
       
       <div className='popular-cart-main' style={{ transform: `translateX(-${scrollIndex * 20}%)` }}>

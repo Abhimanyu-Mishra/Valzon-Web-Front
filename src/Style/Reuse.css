@@ -20,7 +20,7 @@ transition: 0.5s;
 }
 .img-ke-phle img{
     width: 70%;
-    height: 90%;
+    /* height: 90%; */
     padding: 2%;
     margin-left: 15%;
 }
