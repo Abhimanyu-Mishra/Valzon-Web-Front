@@ -27,3 +27,13 @@
     margin-left: 89%;
     border: 2px solid rgb(56, 56, 151) ;
 }
+@media screen and (max-width:500px) {
+    .main-pop{
+        width: 70%;
+        margin-left: 15%;
+        top: 20%;
+    }
+    .cross{
+        margin-left: 83%;
+    }
+}

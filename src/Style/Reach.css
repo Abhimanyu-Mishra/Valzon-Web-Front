@@ -75,5 +75,8 @@ justify-content: space-around;
         font-size: 0.6em;
         padding: 2%;
     }
+    .reach-sub2 input, textarea{
+        border-radius: 3px;
+    }
    
 }

@@ -25,6 +25,7 @@ body{
   padding: 1% ;
   width: 98%;
   background-color: white;
+  align-items: flex-start;
  cursor: pointer;
 }
 .left-nav{
@@ -143,7 +144,6 @@ body{
 }
 .nav-prd img{
   width: 34%;
-  height: 100%;
   margin: 0 28%;
   text-align: center;
 }

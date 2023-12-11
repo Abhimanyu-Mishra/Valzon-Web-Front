@@ -21,6 +21,7 @@
  
 .deal-img{
   width: 40%;
+  margin-left: -10%;
 }
 .deal-img img{
     width: 40%;
@@ -36,6 +37,10 @@
 @media screen and (max-width:500px) {
     .deal-img img{
         width: 90%;
-        padding-top: 5%;
+        padding-top: 15%;
+    }
+    
+    .deal-heading{
+        font-size: 2rem;
     }
 }
